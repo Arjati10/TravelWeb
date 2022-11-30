@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- =========== UNICONS ========== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+
+    <!-- =========== SWIPER CSS ========== -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- =========== CSS ========== -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Let's Travel Website</title>
+
+</head>
+<body>
+    <!-- ========== HEADER ==========-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" ><img src="assets/img/logo-black.png" alt="" id="logo-button" class="nav__logo"></a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-building nav__icon"></i>Tentang
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#offer" class="nav__link">
+                            <i class="uil uil-tag-alt nav__icon"></i>Penawaran
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#destination" class="nav__link">
+                            <i class="uil uil-plane-departure nav__icon"></i>Destinasi
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#guide" class="nav__link">
+                            <i class="uil uil-sign-alt nav__icon"></i>Panduan
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-comment-image nav__icon"></i>Pemesanan
+                        </a>
+                    </li>
+                    
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div> 
+
+            <div class="nav__btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-icons"></i>
+                </div>  
+            </div>
+        </nav>
+    </header> 
+    
+    <!-- ========== MAIN ==========-->
+    <main class = "main">
+        <!-- ========== HOME ==========-->
+        <section class="home section__home" id="home">
+            <video autoplay muted loop class="video">
+                <source src="assets/img/video home.mp4" type="video/mp4" />
+            </video>
+                <div class="intro">
+                    <h1 class="main__title">Travel Kuy</h1>
+                    <p class="subtitle">Capek ngejar masa depan mau liburan? Travel Kuy aja dulu</p>
+                </div>
+        </section> 
+
+        <!-- ========== ABOUT ==========-->
+        <section class="about section" id="about">
+            <h2 class="section__title">Tentang Kami</h2>
+            <span class="section__subtitle">Travel Kuy</span>
+
+            <div class="about__container container">
+                <img src="assets/img/about_i.jpg" alt="" class="illust__img">
+                <div class="about__data">
+                    <p class="about__description">Travel Kuy adalah perusahaan yang menyediakan jasa travel ke berbagai tempat. Mulai dari dalam negeri hingga ke mancanegara. Selain itu, kami juga sudah berpartner dengan banyak perusahaan lain untuk menciptakan kenyamanan pelanggan ketika traveling</p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">100+</span>
+                            <span class="about__info-name">Mitra <br> Hotel </span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">20+</span>
+                            <span class="about__info-name">Mitra <br> Transportasi </span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">1000+</span>
+                            <span class="about__info-name">Melayani <br> Pelanggan </span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a href="#" class="button button--flex">
+                            More Info 
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a> 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- ========== OFFER ==========-->
+         <section class="offer section" id="offer">
+            <h2 class="section__title">Paket Traveling</h2>
+            <span class="section__subtitle">Yang kita tawarkan</span>
+
+            <div class="offer__container container grid">
+
+                <!-- ========== OFFER Banda Neira ==========-->
+                <div class="offer__card">
+                    <img src="assets/img/Landscape Banda Neira.jpeg" class="offer__card-img"></img>
+                    <div class="offer__card-info">
+                      <p class="offer__text-title">Paket Banda Neira</p>
+                      <p class="offer__text-body">Paket liburan ke Banda Neira</p>
+                    </div>
+                    <div class="offer__card-footer">
+                    <span class="offer__text-title">Rp. 10.000.000</span>
+                    <div class="offer__modal">
+                        <div class="offer__modal-content">
+                            <h4 class="offer__modal-title">Paket <br> Banda Neira</h4>
+                            <i class="uil uil-times offer__modal-close"></i>
+
+                            <ul class="offer__modal-offer grid">
+                                <li class="offer__modal-offer">
+                                    <i class="uil uil-check-circle offer__modal-icon"></i>
+                                    <p>Traveling selama satu minggu di Banda Neira</p>
+                                </li>
+
+                                <li class="offer__modal-offer">
+                                    <i class="uil uil-check-circle offer__modal-icon"></i>
+                                    <p>Hotel Bintang 4 dengan pemandangan pantai</p>
+                                </li>
+
+                                <li class="offer__modal-offer">
+                                    <i class="uil uil-check-circle offer__modal-icon"></i>
+                                    <p>Makan 3 kali sehari</p>
+                                </li>
+
+                                <li class="offer__modal-offer">
+                                    <i class="uil uil-check-circle offer__modal-icon"></i>
+                                    <p>Transportasi ke 4 tujuan destinasi yang berbeda</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="offer__card-button button--link offer__button">
+                        <i class="uil uil-map icon"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ========== OFFER Bali ==========-->
+                <div class="offer__card">
+                    <img src="assets/img/Landscape Bali.jpg" class="offer__card-img"></img>
+                    <div class="offer__card-info">
+                      <p class="offer__text-title">Paket Bali </p>
+                      <p class="offer__text-body">Paket liburan ke Bali</p>
+                    </div>
+                    <div class="offer__card-footer">
+                    <span class="offer__text-title">Rp. 8.000.000</span>
+                    <div class="offer__modal">
+                        <div class="offer__modal-content">
+                            <h4 class="offer__modal-title">Paket <br> Bali</h4>
+                            <i class="uil uil-times offer__modal-close"></i>
+
+                            <ul class="offer__modal-offer grid">
+                                <li class="offer__modal-offer">
+                                    <i class="uil uil-check-circle offer__modal-icon"></i>
+                                    <p>Traveling selama satu minggu di Bali</p>
+                                </li>
+
+                                <li class="offer__modal-offer">
+                                    <i class="uil uil-check-circle offer__modal-icon"></i>
+                                    <p>Hotel Bintang 5 dengan pemandangan pantai</p>
+                                </li>
+
+                                <li class="offer__modal-offer">
+                                    <i class="uil uil-check-circle offer__modal-icon"></i>
+                                    <p>Makan 3 kali sehari</p>
+                                </li>
+
+                                <li class="offer__modal-offer">
+                                    <i class="uil uil-check-circle offer__modal-icon"></i>
+                                    <p>Transportasi pulang pergi</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="offer__card-button button--link offer__button">
+                        <i class="uil uil-map icon"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ========== OFFER Jawa Timur ==========-->
+                <div class="offer__card">
+                    <img src="assets/img/Landscaoe Bromo.jpeg" class="offer__card-img"></img>
+                    <div class="offer__card-info">
+                      <p class="offer__text-title">Paket Jawa Timur</p>
+                      <p class="offer__text-body">Paket liburan ke Jawa Timur</p>
+                    </div>
+                    <div class="offer__card-footer">
+                    <span class="offer__text-title">Rp. 7.500.000</span>
+                    <div class="offer__modal">
+                        <div class="offer__modal-content">
+                            <h4 class="offer__modal-title">UI/UX <br> Designer</h4>
+                            <i class="uil uil-times offer__modal-close"></i>
+
+                            <ul class="offer__modal-offer grid">
+                                <li class="offer__modal-offer">
+                                    <i class="uil uil-check-circle offer__modal-icon"></i>
+                                    <p>Traveling selama satu minggu di Jawa Timur</p>
+                                </li>
+
+                                <li class="offer__modal-offer">
+                                    <i class="uil uil-check-circle offer__modal-icon"></i>
+                                    <p>Hotel Bintang 4</p>
+                                </li>
+
+                                <li class="offer__modal-offer">
+                                    <i class="uil uil-check-circle offer__modal-icon"></i>
+                                    <p>Makan 3 kali sehari</p>
+                                </li>
+
+                                <li class="offer__modal-offer">
+                                    <i class="uil uil-check-circle offer__modal-icon"></i>
+                                    <p>Transportasi pulang pergi & transportasi ke 4 tujuan wisata</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="offer__card-button button--link offer__button">
+                        <i class="uil uil-map icon"></i>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- ========== DESTINATION ==========-->
+        <section class="destination section " id="destination">
+            <h2 class="section__title">Destinasi Pilihan</h2>
+            <span class="section__subtitle">Bisa kemana aja sih?</span>
+
+            <div class="destination__container container swiper mySwiper">
+                <h2 class="subtitle__wisata">Wisata Dalam Negeri</h2>
+                <div class="swiper-wrapper">
+
+                    <!-- ========== destination bali ==========-->
+                    <div class="destination__card destination__content  swiper__destination swiper-slide">
+                        <img src="assets/img/bali.jpg" alt="" class="destination__card-img">
+                          <div class="destination__card-info">
+                            <img class="destination__islandIcon" src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/FFFFFF/external-island-landscape-icongeek26-glyph-icongeek26-1.png"/>
+                            <p class="destination__text-title">Bali</p>
+                            <p class="destination__text-body">Paket wisata Bali</p>
+                            <button class="destination__card-button">Read More</button>
+                          </div>
+                    </div>
+                    
+                    <!-- ========== destination borobudur ==========-->
+                    <div class="destination__card destination__content  swiper__destination swiper-slide">
+                        <img src="assets/img/borobudur.jpg" alt="" class="destination__card-img">
+                        <div class="destination__card-info">
+                            <img class="destination__islandIcon" src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/FFFFFF/external-island-landscape-icongeek26-glyph-icongeek26-1.png"/>
+                            <p class="destination__text-title">Borobudur</p>
+                            <p class="destination__text-body">Paket wisata Borobudur</p>
+                            <button class="destination__card-button">Read More</button>
+                        </div>
+                    </div>
+                    
+                    <!-- ========== destination bromo ==========-->
+                    <div class="destination__card destination__content  swiper__destination swiper-slide">
+                        <img src="assets/img/bromo.jpg" alt="" class="destination__card-img">
+                        <div class="destination__card-info">
+                            <img class="destination__islandIcon" src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/FFFFFF/external-island-landscape-icongeek26-glyph-icongeek26-1.png"/>
+                            <p class="destination__text-title">Bromo</p>
+                            <p class="destination__text-body">Paket wisata Bromo</p>
+                            <button class="destination__card-button">Read More</button>
+                        </div>
+                    </div>
+                    
+                    <!-- ========== destination tumpak sewu ==========-->
+                    <div class="destination__card destination__content  swiper__destination swiper-slide">
+                        <img src="assets/img/tumpak sewu.jpeg" alt="" class="destination__card-img">
+                          <div class="destination__card-info">
+                            <img class="destination__islandIcon" src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/FFFFFF/external-island-landscape-icongeek26-glyph-icongeek26-1.png"/>
+                            <p class="destination__text-title">Tumpak Sewu</p>
+                            <p class="destination__text-body">Paket wisata Tumpak Sewu</p>
+                            <button class="destination__card-button">Read More</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination swiper-pagination-destination"></div>
+            </div>
+
+            <div class="destination__container container swiper mySwiper">
+                <h2 class="subtitle__wisata">Wisata Luar Negeri</h2>
+                <div class="swiper-wrapper">
+                    <!-- ========== destination prancis ==========-->
+                    <div class="destination__card destination__content  swiper__destination swiper-slide">
+                        <img src="assets/img/Perancis.jpg" alt="" class="destination__card-img">
+                          <div class="destination__card-info">
+                            <img class="destination__islandIcon" src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/FFFFFF/external-island-landscape-icongeek26-glyph-icongeek26-1.png"/>
+                            <p class="destination__text-title">Prancis</p>
+                            <p class="destination__text-body">Paket wisata Prancis</p>
+                            <button class="destination__card-button">Read More</button>
+                        </div>
+                    </div>
+                    
+                    <!-- ========== destination jepang ==========-->
+                    <div class="destination__card destination__content  swiper__destination swiper-slide">
+                        <img src="assets/img/Japan.jpg" alt="" class="destination__card-img">
+                          <div class="destination__card-info">
+                            <img class="destination__islandIcon" src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/FFFFFF/external-island-landscape-icongeek26-glyph-icongeek26-1.png"/>
+                            <p class="destination__text-title">Jepang</p>
+                            <p class="destination__text-body">Paket wisata Jepang</p>
+                            <button class="destination__card-button">Read More</button>
+                        </div>
+                    </div>
+                    
+                    <!-- ========== destination swiss ==========-->
+                    <div class="destination__card destination__content  swiper__destination swiper-slide">
+                        <img src="assets/img/Swiss.jpg" alt="" class="destination__card-img">
+                          <div class="destination__card-info">
+                            <img class="destination__islandIcon" src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/FFFFFF/external-island-landscape-icongeek26-glyph-icongeek26-1.png"/>
+                            <p class="destination__text-title">Swiss</p>
+                            <p class="destination__text-body">Paket wisata Swiss</p>
+                            <button class="destination__card-button">Read More</button>
+                        </div>
+                    </div>
+
+                    <!-- ========== destination korea selatan ==========-->
+                    <div class="destination__card destination__content  swiper__destination swiper-slide">
+                        <img src="assets/img/Korea Selatan.jpg" alt="" class="destination__card-img">
+                          <div class="destination__card-info">
+                            <img class="destination__islandIcon" src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/FFFFFF/external-island-landscape-icongeek26-glyph-icongeek26-1.png"/>
+                            <p class="destination__text-title">Korea Selatan</p>
+                            <p class="destination__text-body">Paket wisata Korea Selatan</p>
+                            <button class="destination__card-button">Read More</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination swiper-pagination-destination"></div>
+            </div>
+        </section>
+          
+         <!-- ========== GUIDE ==========-->
+         <section class="guide section" id="guide">
+            <h2 class="section__title">Panduan Perjalanan</h2>
+            <span class="section__subtitle">Yang harus diketahui</span>
+
+            <div class="guide__container container grid">
+                <!-- ========== GUIDE image ==========-->
+                    <div class="guide__box">
+                        <img src="assets/img/traveler.jpg" alt="" class="guide__img">
+                        <p class="guide__title">Indonesia</p>
+                    </div>
+                
+                <!-- ========== GUIDE image ==========-->
+                    <div class="guide__box">
+                        <img src="assets/img/Visa.jpg" alt="" class="guide__img">
+                        <p class="guide__title">Visa</p>
+                    </div>
+                
+                <!-- ========== GUIDE image ==========-->
+                    <div class="guide__box">
+                        <img src="assets/img/Penerbangan.jpg" alt="" class="guide__img">
+                        <p class="guide__title">Informasi Transportasi</p>
+                    </div>
+            </div> 
+        </section>
+
+        <!-- ========== TESTIMONIAL ==========-->
+        <section class="testimonial section">
+            <h2 class="section__title">Apa Kata Mereka</h2>
+            <span class="section__subtitle">Cari tau yuk</span>
+
+            <div class="testimonial__container container grid">
+                        <img src="assets/img/IMG_6896-min.JPG" alt="" class="testimonial__img">
+                        <div class="testimonial__card testimonial__data">
+                            <div class="testimonial__card-details">
+                              <p class="testimonial__text-title">D4!!! IYO IYO IYO</p>
+                              <p class="testimonial__text-body">Berlibur selama seminggu bersama teman-teman merupakan pengalaman yang sangat menyenangkan. Kita ke berbagai tempat seperti ke Cangar, Pantai, dan Kebun Raya Purwodadi. Hal itu adalah pengalaman luar biasa bagi saya dan teman teman karena dapat melakukan traveling dengan aman, nyaman dan menyenangkan. Terima kasih untuk Jati dan Travel Kuy semoga  bisa kuy selalu. Terakhir untuk teman teman D4 ABDC kisah kita dipertemukan pendidikan dan dipisahkan masa depan tidak akan selamanya, kalau ada waktu luang mari traveling bersama. Kecuali Agung.</p>
+                            </div>
+                            <div class="testimonial__testi">
+                                <img src="assets/img/full senyum.jpg" alt="" class="testimonial__pic-profile">
+                                <div class="testimonial__isi">
+                                    <p class="testimonial__isi-pesan">Jati Ringin Geni</p>
+                                <p class="testimonial__job">Anggota D4</p>
+                                </div>
+                            </div>
+                            <button class="testimonial__card-button"><p> More Info</p></button>
+                          </div>
+            </div>
+        </section>    
+
+        <!-- ========== CONTACT ME ==========-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Hubungi Kita</h2>
+            <span class="section__subtitle">Cek media sosial kita atau langsung lakukan pemesanan</span>
+            <img src="assets/img/contact.jpg" alt="" class="illust__img">
+            
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+                         <div>
+                            <h3 class="contact__title">Call Us</h3>
+                            <span class="contact__subtitle">111-222-333</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email Us</h3>
+                            <span class="contact__subtitle">travelkuys10@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-instagram contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Instagram</h3>
+                            <span class="contact__subtitle">@KuyTravel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Paket Wisata / Tujuan</label>
+                        <input type="text" class="contact__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Pesan</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+                        
+                    <button>
+                        <div class="svg-wrapper-1">
+                            <div class="svg-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                            </svg>
+                            </div>
+                        </div>
+                        <span>Send</span>
+                    </button>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER ==========-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Travel Kuy</h1>
+                    <span class="footer__subtitle">Travel Company</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#offer" class="footer__link">Paket Wisata</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Panduan</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Kontak</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="https://twitter.com/" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Travel Kuy. All right reserved</p>
+        </div>
+    </footer>
+
+    <!-- ========== SCROLL TOP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!-- ========== SWIPER JS ==========-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- ========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html> 
