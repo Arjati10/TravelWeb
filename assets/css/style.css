@@ -143,7 +143,7 @@ img{
 }
 
 .section__home{
-    padding: 5rem 0 5.5rem;
+    padding: 18rem 0 19rem;
 }
 
 .section__title{
@@ -418,7 +418,7 @@ button {
 
 /* ========== ABOUT ==========*/
 .illust__img{
-    width: 300px;
+    width: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -460,12 +460,13 @@ button {
 /* ========== OFFER ==========*/
 .offer__container{
     gap: 1.5rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
 }
 
 .offer__card {
-    width: 265px;
-    height: 300px;
+    width: 270px;
+    height: 310px;
     padding: .8em;
     background: var(--container-color);
     border-radius: 0.5rem;
@@ -631,8 +632,7 @@ button {
 /* ========== DESTINATION ==========*/
 
 .destination__card {
-    height: 300px;
-    width: 250px;
+    height: 425px;
     margin-bottom: var(--mb-2);
     padding: 1.9rem;
     background: #f5f5f5;
@@ -769,16 +769,14 @@ button {
 
 /* ========== GUIDE ==========*/
 .guide__container{
-    width: 500px;
-    justify-content: center;
     gap: 1rem;
-    margin-left: 3.5rem;
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
 }
 
 .guide__img{
-    width: 500px;
-    height: 100px;
+    width: 390px;
+    height: 140px;
     border-radius: .5rem;
 }
 
@@ -787,9 +785,8 @@ button {
 }
 
 .guide__box{
-    max-width: 450px;
-    max-height: 180px;
-    margin-bottom: var(--mb-2);
+    width: 390px;
+    height: 90%;
     position: relative;
 }
 
@@ -806,11 +803,16 @@ button {
 .testimonial__container{
     gap: 1rem;
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+}
+
+.testimonial__img{
+    width: 390px;
+    border-radius: .5rem;
 }
 
 .testimonial__card{
-    width: 550px;
-    height: 350px;
+    width: 390px;
     border-radius: 20px;
     justify-self: center;
     background: var(--input-color);
@@ -889,12 +891,6 @@ button {
 
 .testimonial__job{
     font-size: var(--small-font-size);
-}
-
-.testimonial__img{
-    width: 550px;
-    border-radius: .5rem;
-    justify-self: center;
 }
 
 /* ========== CONTACT ME ==========*/
@@ -1049,7 +1045,7 @@ button {
     }
 
     .section__home{
-        padding: 15rem 0 17rem;
+        padding: 16rem 0 18rem;
     }
 
     .section__title{
@@ -1092,12 +1088,12 @@ button {
     }
 
     .guide__img{
-        max-width: 320px;
+        width: 320px;
         height: 120px;
     }
 
     .guide__box{
-        /* width: 320px; */
+        width: 320px;
         height: 110px;
         margin-bottom: var(--mb-0-5);
     }
@@ -1136,7 +1132,7 @@ button {
 /* For medium devices */
 @media screen and (min-width: 568px){
     .section__home{
-        padding: 15rem 0 18.5rem;
+        padding: 16rem 0 18rem;
     }
 
     .about__container,
@@ -1145,27 +1141,37 @@ button {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .illust__img{
+        width: 250px;
+    }
+
     .guide__img{
-        width: 490px;
+        width: 530px;
         height: 200px;
     }
 
     .guide__box{
-        width: 520px;
-        height: 190px;
-        /* margin-bottom: var(--mb-2); */
+        width: 530px;
+    }
+
+    .guide__container{
+        gap: 1.5rem;
     }
 
     .offer__card{
         width: 250px;
     }
 
+    .destination__card{
+        height: 350px;
+    }
+
     .testimonial__img{
-        width: 490px;
+        width: 530px;
     }
 
     .testimonial__card{
-        width: 490px;
+        width: 530px;
         height: 370px;
     }
 
@@ -1252,24 +1258,30 @@ button {
         width: 450px;
     }
 
-    .destination__container{
-        width: 650px;
-    }
-
     .destination__card {
-        height: 350px;
+        height: 400px;
     }
 
     .swiper-wrapper{
         margin-bottom: var(--mb-2);
     }
 
-    
-    .destination__box{
-        max-height: 340px;
-        max-width: 280px;
+    .guide__img{
+        width: 600px;
+        height: 200px;
     }
-    
+    .guide__box{
+        width: 600px;
+    }
+
+    .testimonial__img{
+        width: 600px;
+    }
+
+    .testimonial__card{
+        width: 600px;
+    }
+
     .footer__container{
         grid-template-columns: repeat(3, 1fr);
     }
@@ -1316,21 +1328,22 @@ button {
         width: 250px;
     }
 
+    .destination__card{
+        height: 450px;
+    }
+
     .guide__container{
-        justify-content: center;
         gap: 1rem;
-        grid-template-columns: repeat(2, 450px);
+        grid-template-columns: repeat(2, 2fr);
+        justify-content: center;
     }
 
     .guide__img{
         width: 450px;
-        height: 196px;
     }
 
     .guide__box{
-        width: 425px;
-        height: 200px;
-        /* margin-bottom: 1rem; */
+        width: 450px;
     }
 
     .testimonial__container{
