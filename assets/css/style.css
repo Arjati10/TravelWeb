@@ -626,7 +626,7 @@ button {
 /* ========== DESTINATION ==========*/
 
 .destination__card {
-    height: 425px;
+    height: 350px;
     margin-bottom: var(--mb-2);
     padding: 1.9rem;
     background: #f5f5f5;
@@ -769,7 +769,7 @@ button {
 }
 
 .guide__img{
-    width: 350px;
+    width: 300px;
     height: 140px;
     border-radius: .5rem;
 }
@@ -779,7 +779,7 @@ button {
 }
 
 .guide__box{
-    width: 350px;
+    width: 300px;
     height: 90%;
     position: relative;
 }
@@ -801,12 +801,12 @@ button {
 }
 
 .testimonial__img{
-    width: 350px;
+    width: 300px;
     border-radius: .5rem;
 }
 
 .testimonial__card{
-    width: 350px;
+    width: 300px;
     border-radius: 20px;
     justify-self: center;
     background: var(--input-color);
