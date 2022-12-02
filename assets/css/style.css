@@ -626,7 +626,7 @@ button {
 /* ========== DESTINATION ==========*/
 
 .destination__card {
-    height: 350px;
+    height: 400px;
     margin-bottom: var(--mb-2);
     padding: 1.9rem;
     background: #f5f5f5;
