@@ -1343,6 +1343,7 @@ button {
 
     .guide__box{
         width: 450px;
+        margin-bottom: 1rem;
     }
 
     .testimonial__container{
