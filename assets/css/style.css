@@ -1095,7 +1095,6 @@ button {
     .guide__box{
         width: 320px;
         height: 110px;
-        margin-bottom: var(--mb-0-5);
     }
 
     .guide__title{
